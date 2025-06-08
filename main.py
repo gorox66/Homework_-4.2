@@ -109,6 +109,7 @@ def calculate():
 root = Tk()
 root.title("Произведение массивов")
 root.geometry("800x400")
+root.resizable(False, False)
 root.configure(bg="black")
 
 label1 = Label(root, text="Первый массив:", bg="black", fg="white")
